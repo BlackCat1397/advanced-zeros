@@ -14,7 +14,7 @@ module.exports = function getZerosCount(number, base) {
     }
     tRes = Math.floor(tRes / dividersOfBase[key]);
     if (tRes === 0) {
-      return res;
+      return 0;
     }
     if (tRes < res) {
       res = tRes;
